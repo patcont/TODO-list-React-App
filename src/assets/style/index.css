@@ -1,151 +1,148 @@
-@import url('http://fonts.cdnfonts.com/css/cyberpunk-is-not-dead');
+@font-face {
+  font-family: "Cyberpunk Is Not Dead";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cyberpunk Is Not Dead"),
+    url("https://fonts.cdnfonts.com/s/73490/CIND.woff") format("woff");
+}
 
-body{
-    background: url(../images/Digital_rain_animation_small_letters_shine.gif);
-    background-repeat: no-repeat;
-    background-size:cover;
-    font-family: 'Cyberpunk Is Not Dead', sans-serif;
-                                                
+body {
+  background: url(../images/Digital_rain_animation_small_letters_shine.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Cyberpunk Is Not Dead", sans-serif;
 }
 
 .todolist {
-    background-color:black;
-    padding: 20px 20px 10px 20px;
-    width: 450px;
-    margin: 30px auto;
-    border: 1px solid #ddd;
-    border-radius: 2px;
-    position: relative;
-    
-    
+  background-color: black;
+  padding: 20px 20px 10px 20px;
+  width: 450px;
+  margin: 30px auto;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  position: relative;
 }
 
 .todolist h1 {
-    margin: 0;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    text-align: center;
-    text-transform: uppercase;
-    color: green;
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: green;
 }
 
 .todolist .info {
-    position: absolute;
-    margin-top: 20px;
-    left: 0;
-    right: 0;
-    color: #999;
-    text-align: center;
-    color: white;
+  position: absolute;
+  margin-top: 20px;
+  left: 0;
+  right: 0;
+  color: #999;
+  text-align: center;
+  color: white;
 }
 
 .form-control {
-    border-radius: 0;
+  border-radius: 0;
 }
 
 li.ui-state-default {
-    background: #fff;
-    border: none;
-    border-bottom: 1px solid #ddd;
+  background: #fff;
+  border: none;
+  border-bottom: 1px solid #ddd;
 }
 
 li.ui-state-default:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 li.completed label {
-    text-decoration: line-through;
-    color: #aaa;
+  text-decoration: line-through;
+  color: #aaa;
 }
 
 footer {
-    border-top: 1px solid #ddd;
-    background-color:black;
-   
-    margin: 0 -20px -10px -20px;
-    padding: 12px 20px;
-    position: relative;
-    color: #008000;
-    font-size:x-small;
+  border-top: 1px solid #ddd;
+  background-color: black;
+
+  margin: 0 -20px -10px -20px;
+  padding: 12px 20px;
+  position: relative;
+  color: #008000;
+  font-size: x-small;
 }
 
 .filters {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .filters li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .filters li a {
-    cursor: pointer;
-    color: inherit;
-    margin: 3px;
-    padding: 4px 8px;
-    text-decoration: none;
-    border: 1px solid transparent;
-    border-radius: 3px;
+  cursor: pointer;
+  color: inherit;
+  margin: 3px;
+  padding: 4px 8px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
 }
 
-.filters li a.selected, .filters li a:hover {
-    border-color: rgb(2, 77, 2);
+.filters li a.selected,
+.filters li a:hover {
+  border-color: rgb(2, 77, 2);
 }
 
 .filters li a.selected {
-    border-color:  rgb(2, 212, 2)
-   
+  border-color: rgb(2, 212, 2);
 }
 
 footer .buttons {
-    border-right: 1px solid #ccc;
-    margin-right: 15px;
-    padding-right: 10px;
-    height: 20px;
-    
+  border-right: 1px solid #ccc;
+  margin-right: 15px;
+  padding-right: 10px;
+  height: 20px;
 }
 
 .buttons .button {
-    display: inline-block;
-    margin: 0 5px;
-    height: 18px;
-    width: 18px;
-    cursor: pointer;
-    opacity: 0.5;
-    transition: 0.3s all;
-    
+  display: inline-block;
+  margin: 0 5px;
+  height: 18px;
+  width: 18px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.3s all;
 }
 
-.buttons .button:hover, .buttons .button.selected {
-    opacity: 1;
-    border-color: #ddd;
-  
-    
+.buttons .button:hover,
+.buttons .button.selected {
+  opacity: 1;
+  border-color: #ddd;
 }
 
 .buttons .add {
-    background: url(../images/add.svg) no-repeat center;
-    
+  background: url(../images/add.svg) no-repeat center;
 }
 
 .buttons .search {
-    background: url(../images/search.svg) no-repeat center;
-    
+  background: url(../images/search.svg) no-repeat center;
 }
 
 .alert.alert-info {
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 0;
-    background: #f2f2f2;
-    border: 1px solid rgba(229, 229, 229, 0.5);
-    color: #888;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 0;
+  background: #f2f2f2;
+  border: 1px solid rgba(229, 229, 229, 0.5);
+  color: #888;
 }
 
-.gif{
-   display: flex;
-   justify-content: center;
-   border-radius: 5px;
+.gif {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
 }
-
